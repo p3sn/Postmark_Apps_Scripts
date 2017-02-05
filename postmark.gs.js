@@ -34,7 +34,7 @@ function postmark(to, subject, htmlBody) {
 	}
 }
 
-function testSendMail() {
+function SendTestMail() {
 	var to = 'to@mail.address';
 	var subject = 'This is a test e-mail from Peter';
 	var htmlBody = '<html>test</html>';
